@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        
+    <header>
+        <nav class="navbar">
+            <div class="logo">SP</div>
+            <ul class="nav-links">
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+              <div class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="MyWork.html">My Work</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </div>
+            </ul>
+          </nav>
+        </header>
+
+    <section id="formdesign">
+        <h1>Contact</h1>
+        <hr>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label><b style="font-size:20px;">Name:</b></label>
+                        <input type="text" id="fname" placeholder="Enter your name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><b style="font-size:20px;">PhoneNo:</b></label>
+                        <input type="tel" id="phoneno" placeholder="Enter your Number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><b style="font-size:20px;">Email:</b></label>
+                        <input type="email" id="email" placeholder="Enter your Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><b style="font-size:20px;">Password:</b></label>
+                        <input type="password" id="pwd" placeholder="Enter your Password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="bhover" onclick="demo()" style="font-size: 20px;"><b>SUBMIT </b></button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <script src="script.js"></script>
+    </section>
+    
+    <section id="contact-a" class="Con-a">
+        <div class="container">
+            <div class="con-info">
+                <div class="con-col-1">
+                    <i class="fas fa-address-card fa-2x"></i>
+                    <h2>
+                        address
+                    </h2>
+                    <address>
+                        401 Infolab,<br>
+                        D-mart road,nikol,<br>
+                        ahmedabad-382350,<br>
+                        Gujarat.
+                    </address>
+                </div>
+                         <div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14684.274787797935!2d72.5381015!3d23.0579429!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x249acb663e46af9b!2sSoft%20Coding%20Solutions!5e0!3m2!1sen!2sin!4v1654522792160!5m2!1sen!2sin"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+      <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-snapchat"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    
+      <ul class="list">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">My Work</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      <p class="copyright">&copy; 2022 Copyright:Smit Patel</p>
+    </section>
+</body>
+</html>
